@@ -1,0 +1,27 @@
+
+	ENVIAR COMMITES PARA O REPOSITÓRIO WEB
+
+
+1º Botão direito na pasta raiz do projeto
+
+2º Git Bash Here
+
+3º git add nomearquivoOuPasta  (adiciona para comitar)
+
+4º git commit -am "comentário"  (commita)
+
+5º git push origin master (manda os commits para o git hub)
+
+
+
+	CRIAR NOVO REPOSITÓRIO WEB
+
+
+Abre github  ->  +  -> Nem repository  -> Dê um nome, descrição e público -> Create -> copie a linha parecida         com "git remote add origin git@github.com:luizcampos/nomeRepositorio.git"  (SSH) 
+
+
+
+	LIGAR REPOSITÓRIO DESKTOP COM REPOSITÓRIO WEB
+
+
+Abre o git bash   ->  entra na pasta desejada dos arquivos  ->  cole "git remote add origin                 git@github.com:luizcampos/nomeRepositorio.git"   ->   git push -u origin master(branch)    ->  
