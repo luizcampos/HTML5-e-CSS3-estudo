@@ -6,17 +6,28 @@ body{
 
 main h1{
 	font-size: 60px;
-	background-color: rgb(120, 30, 60);
-	color: white;
+	background-color: #851944;
+	color: #F2FFFC;
 	text-align: center;
-	font-family: "Arial", sans-serif;
+	font-family: "Open Sans Condensed", sans-serif;
+    padding: 20px;
+    margin: 0;
 }
 
 h2{
 	font-size: 40px;
-	font-family: "Arial", sans-serif;
+	font-family: "Open Sans Condensed", sans-serif;
 }
 
 p{
 	text-align: justify;
+}
+
+blockquote{
+    background-color: #D3DDDA;
+    padding: 16px;
+    border: 10px solid #C2CCCA;
+    width: 250px;
+    margin: 0;
+    box-sizing: border-box;
 }
