@@ -12,15 +12,19 @@ main h1{
 	font-family: "Open Sans Condensed", sans-serif;
     padding: 20px;
     margin: 0;
+    text-transform: uppercase;
 }
 
 h2{
 	font-size: 40px;
 	font-family: "Open Sans Condensed", sans-serif;
+    clear: both;
 }
 
 p{
 	text-align: justify;
+    margin: 30px 0;
+    clear: 
 }
 
 blockquote{
@@ -30,4 +34,88 @@ blockquote{
     width: 250px;
     margin: 0;
     box-sizing: border-box;
+}
+
+.citacao-right{
+    float: right;
+}
+
+.citacao-left{
+    float: left;
+}
+
+strong{
+    font-weight: 600;
+}
+
+em{
+    font-style: italic;
+}
+
+aside{
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    text-align: center;
+    padding: 20px;
+    font-family: "Open Sans Condensed", sans-serif;
+    clear: right;
+    width: 15%;
+}
+
+aside, img{
+    float: right;
+}
+
+main{
+    width: 80%;
+    float: left;
+}
+
+.links-sociais li{
+    display: inline-block;
+}
+
+.links-sociais a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+
+.github{
+    background-image: url("../img/github.png");
+}
+
+.twitter{
+    background-image: url("../img/twitter.png");
+}
+
+.linkedin{
+    background-image: url("../img/linkedin.png");
+}
+
+nav ul li a{
+    color: inherit;
+    font-size: 16px;
+}
+
+nav h1{
+    margin-bottom: 25px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: black;
+    color: #F2FFFC;
+    padding: 20px;
+    font-size: 14px;
+}
+
+main section{
+   margin: 0 200px 0 200px;
+}
+
+footer{
+    clear: both;
 }
